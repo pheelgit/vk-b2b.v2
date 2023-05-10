@@ -20,6 +20,6 @@ export const FreeRoomsService = {
 
   bookingRoom(data) {
     ///fetch axios.post('....',{data})
-    console.log(JSON.stringify(data))
+    console.log(JSON.stringify(data, null, '  '))
   },
 }

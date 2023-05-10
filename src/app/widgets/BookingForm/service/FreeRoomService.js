@@ -13,7 +13,7 @@ export const FreeRoomsService = {
       timeEnd: dayjs(time[1]).format('HH-mm'),
     }
 
-    ///const freeRoomsFromServer = axios.get('...',{params}).then(({data})=>data.data)
+    ///const freeRoomsFromServer = axios.get('...',{params}).then((res)=>res.data)
 
     return freeRoomsFromServer
   },

@@ -135,7 +135,7 @@ export const BookingForm = () => {
           <Select
             {...field}
             placeholder='выбор комнаты'
-            disabled={!floorOptions.length}
+            disabled={!roomOptions.length}
             options={roomOptions}
             filterSort={config.sortingForRender}
           />
